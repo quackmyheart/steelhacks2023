@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("rainbow.png");
+}
+
+#title {
+  display: flex;
+  margin-top: 3%;
+  font-size: 1000%;
+  justify-content: center;
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+}
+
+#subtitle {
+  display: flex;
+  margin-top: 3%;
+  font-size: 200%;
+  justify-content: center;
+  font-family: "Papyrus", fantasy; 
+  font-weight: bold;
+}
+
+#link {
+  display: flex;
+  margin-top: 3%;
+  font-size: 200%;
+  justify-content: center;
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+}
+
+#map {
+  height:400px;
+  width:800px;  
+}
+
+#locButton {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 100px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#pageTitle {
+  display: flex;
+  margin-top: 3%;
+  font-size: 500%;
+  justify-content: center;
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+}
+
+#things {
+  display: grid; 
+  grid-column-gap: 3%; 
+  grid-template-columns: 1fr 1fr;
+  margin-right: 3%;
+  margin-left: 3%; 
+}
+
+#peoplesLocations {
+  background-color: lightblue;
+  font-family: "Papyrus", fantasy; 
+  font-weight: bold;
+  font-size: 200%;
+}
+
+input[type="text"] {
+height: 10px;
+width: 80px;
+}
+
+#enterpassword {
+  background-color: lightblue;
+  font-family: "Papyrus", fantasy; 
+  font-weight: bold;
+  font-size: 200%; 
+}
+
+#passButton { 
+  width: 300px;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer; 
+}
+
+#addStuff {
+  font-size: 30px;
+  background-color: lightblue;
+}
+
+#addPass {
+  font-size: 30px;
+  background-color: lightblue;
+}
+
+#newPass {
+   font-size: 100px;
+  background-color: white;
+}
+
+#articles {
+    display: grid; 
+  grid-column-gap: 3%; 
+  grid-template-columns: 1fr 1fr;
+  margin-right: 3%;
+  margin-left: 3%; 
+}
+
+#levy {
+  width: 400px;
+}
+
+#tips {
+  font-size: 30px;
+  background-color: lightblue;
+    display: flex;
+  justify-content: center;
+}
